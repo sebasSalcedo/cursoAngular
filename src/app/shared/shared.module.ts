@@ -18,7 +18,6 @@ import { HeaderComponent } from './header/header.component';
     BreadcrumbsComponent,
     SidebarComponent,
     HeaderComponent,
-
   ],
   imports: [
     CommonModule,

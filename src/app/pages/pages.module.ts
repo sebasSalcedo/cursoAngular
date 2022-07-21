@@ -33,7 +33,7 @@ import { RxjsComponent } from './rxjs/rxjs.component';
     ProgressComponent,
     Grafica1Component,
     PagesComponent,
-    AccountSettingsComponent,
+    AccountSettingsComponent
   ],
   imports: [ 
     CommonModule,

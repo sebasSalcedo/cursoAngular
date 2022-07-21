@@ -5,9 +5,7 @@ Email: niravjoshi87@gmail.com
 File: js
 */
 
-
-const customInitFunctions = () =>{
-
+const customInitFunctions = () => {
     $(function() {
         "use strict";
         $(function() {
@@ -83,7 +81,6 @@ const customInitFunctions = () =>{
             $(this).parents('.form-group').toggleClass('focused', (e.type === 'focus' || this.value.length > 0));
         }).trigger('blur');
     
-
         // ============================================================== 
         //tooltip
         // ============================================================== 
@@ -143,8 +140,6 @@ const customInitFunctions = () =>{
         });
     
     });
-
 }
 
 customInitFunctions();
-
